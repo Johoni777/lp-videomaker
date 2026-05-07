@@ -22,7 +22,7 @@ export function Hero() {
       >
         <video
           src="/videos/hero-reel.mp4"
-          poster="/videos/posters/hero.jpg"
+          poster="/videos/posters/hero.PNG"
           autoPlay
           muted
           loop
@@ -100,7 +100,10 @@ export function Hero() {
                 words: [
                   "ele",
                   "não",
-                  { text: "vende.", className: "text-white/35" },
+                  {
+                    text: "vende.",
+                    className: "font-black text-white",
+                  },
                 ],
               },
             ]}
@@ -131,7 +134,10 @@ export function Hero() {
                 words: [
                   "ele",
                   "não",
-                  { text: "vende.", className: "text-white/35" },
+                  {
+                    text: "vende.",
+                    className: "font-black text-white",
+                  },
                 ],
               },
             ]}
